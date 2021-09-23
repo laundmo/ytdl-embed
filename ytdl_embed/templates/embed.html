@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta property="og:type" content="video.other" />
+        <meta property="og:url" content="{{current_url}}" />
+        <meta property="og:video" content="{{mp4}}" />
+        <meta property="og:video:secure_url" content="{{mp4}}" />
+        <meta property="og:video:type" content="video/mp4" />
+        <title>Embedded video</title>
+    </head>
+
+    <body style="background:#000000;color:#ffffff;margin: 0; padding: 0">
+        <div style="text-align: center;">
+            <video controls autoplay loop style="text-: center; max-width: 100vw; max-height: 100vh;">
+                <source src="{{mp4}}" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+        </div>
+    </body>
+
+</html>

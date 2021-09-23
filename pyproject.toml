@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ytdl-embed"
+version = "0.1.0"
+description = ""
+authors = ["laundmo <laurinschmidt2001@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.1"
+youtube_dl = "^2021.6.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^21.9b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
